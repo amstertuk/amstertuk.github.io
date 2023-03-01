@@ -185,47 +185,44 @@ html{
 
 /* Section Contact */
 
-#contact{
-    display: flex;
-    flex-direction: column;
+#contact {
+    margin-top: 50px;
+    padding: 25px;
     background-color: #000000dc;
-}
+  }
+  
 
-#contact h1{
-    margin: 50px;
-}
-
-.form{
+  
+  .social-media-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-.input{
-    padding: 15px 20px;
-    margin: 15px;
-    width: 40%;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-}
-
-#message{
-    margin: 15px;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-#submit{
-    padding: 10px;
-    margin: 40px;
-    width: 10%;
-    border: none;
-    outline: none;
-}
-
-#submit:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
-}
+  }
+  
+  .social-media-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media-list li {
+    margin: 10px 0;
+  }
+  
+  .social-media-list li a {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .social-media-list li a i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-media-icon a i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #000;
+  }
+  
